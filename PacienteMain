@@ -1,0 +1,25 @@
+package Recuperação1LP;
+
+
+public class PacienteMain {
+    public static void main(String[] args) {
+        Paciente paciente1 = new Paciente(123,"Alanna","05/10/2004","feminino", "Plamol", "Ácaros e fungos", "A+");
+        System.out.println(paciente1.codigo);
+        System.out.println(paciente1.nome);
+        System.out.println(paciente1.dataNascimento);
+        System.out.println(paciente1.sexo);
+        System.out.println(paciente1.planoSaude);
+        System.out.println(paciente1.alergia);
+        System.out.println(paciente1.tipoSanguineo);
+
+        Paciente paciente2 = new Paciente(456, "Fátima", "31/08/1969", "Feminino", "Plamol","Nimesulida", "A+" );
+        System.out.println(paciente2.codigo);
+        System.out.println(paciente2.nome);
+        System.out.println(paciente2.dataNascimento);
+        System.out.println(paciente2.sexo);
+        System.out.println(paciente2.planoSaude);
+        System.out.println(paciente2.alergia);
+        System.out.println(paciente2.tipoSanguineo);
+        
+    }
+}
