@@ -1,0 +1,18 @@
+package Recuperação1LP;
+
+public class Paciente {
+    public int codigo;
+    public String nome, dataNascimento, sexo, planoSaude, alergia, tipoSanguineo;
+
+
+    public Paciente(int cod, String name, String nasc, String sex, String planos, String alrg, String tipSang) {
+        this.codigo = cod;
+        this.nome = name;
+        this.dataNascimento = nasc;
+        this.sexo = sex;
+        this.planoSaude = planos;
+        this.alergia = alrg;
+        this.tipoSanguineo = tipSang;
+
+    }
+}
